@@ -43,6 +43,8 @@ Tested on windows 10x86, linux Ubuntu 20.04.4 LTS
 The plugin requires ImageJ 1.48 or higher (tested for 1.48 to 1.53)
 ImageJ version number can be found under: Help -> About ImageJ...
 
+R functions were developped using¡ 
+Python functions were developped using
 Matlab functions were developped using 64bits Matlab R2021b
 
 -------------------
@@ -52,6 +54,8 @@ Prior to MSSR installation, the latest version of FIJI must be running on your c
 Plugin installation of MSSR can occur in two alternative ways:
 1. Through the installation option in FIJI (Plugins -> Install -> MSSR_X.X.X.jar) (Figure panel c).
 2. By directly placing the MSSR_X.X.X.jar file in the specific FIJI plugins folder in your system (Figure panel b).
+
+Estimated time to install
 
 <img src="readme_resources/Installation.png" width="600">
 
