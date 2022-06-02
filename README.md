@@ -1,6 +1,7 @@
 # MSSR
 
-<!---A detailled description of the method can be found in : 
+<!---
+A detailled description of the method can be found in : 
 Esley Torres García , Raúl Cámara , Alejandro Linares et al. Nanoscopic resolution within a single imaging frame.
 
 If this software has been usefull to your research, please consider citing
@@ -10,6 +11,7 @@ https://doi.org/10.1101/2021.10.17.464398
 -------------------
 --->
 
+<!---
 This README.txt file should be accompanied by
 
 * The plugin MSSR_2.0.0.jar in ijplugin folder
@@ -18,10 +20,8 @@ This README.txt file should be accompanied by
 *test_image.tif*
 This data set consists in a experimental laser lithography of doughnut-shaped structures combined in a single stack
 
-<!---
 * A copy of the licence
 LICENSE.txt
---->
 
 * An R script: MSSR_2.0.0.R
 
@@ -30,6 +30,8 @@ LICENSE.txt
 * A Matlab script in MSSR_2.0.0_matlab.rar
 
 -------------------
+--->
+
 # System requirements
 
 MSSR_2.0.0.jar will require a running installation of ImageJ.
