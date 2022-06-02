@@ -37,6 +37,7 @@ MSSR_2.0.0.jar will require a running installation of ImageJ.
 Full instruction for the installation of ImageJ can be found at:
 https://imagej.nih.gov/ij/download.html
 
+Tested on windows 10x86, linux Ubuntu 20.04.4 LTS
 The plugin requires ImageJ 1.48 or higher (tested for 1.48 to 1.53)
 ImageJ version number can be found under: Help -> About ImageJ...
 
