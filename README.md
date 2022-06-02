@@ -2,7 +2,6 @@
 
 A detailled description of the method can be found in : 
 Esley Torres García , Raúl Cámara , Alejandro Linares et al. Nanoscopic resolution within a single imaging frame.
-Nature Communications (2022).
 
 If this software has been usefull to your research, please consider citing
 
