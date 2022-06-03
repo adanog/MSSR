@@ -43,9 +43,34 @@ Tested on windows 10x86, linux Ubuntu 20.04.4 LTS
 The plugin requires ImageJ 1.48 or higher (tested for 1.48 to 1.53)
 ImageJ version number can be found under: Help -> About ImageJ...
 
-R functions were developped using¡ 
-Python functions were developped using
+R functions were developped using R 4.1.1
+Python functions were developped using python 3.10.4
 Matlab functions were developped using 64bits Matlab R2021b
+
+-------------------
+# Minimum characteristics and estimated execution time
+
++ CPU: Intel(R) Core i5 Third generation
+
++ RAM: 4GB
+
++ Integrated graphics: Intel(R) HD Graphics 2500
+
+
+
+With a data set of 32x32 and 100 images, Amplification value as 5, FWHM as 3 and Order as 1.
+
+| Iterpolation | Seconds |
+| :---: | :---: |
+| Bicubic | 36 |
+| Fourier | 41 |
+
+With a data set of 64x64 and 100 images, Amplification value as 5, FWHM as 3 and Order as 1.
+
+| Iterpolation | Seconds |
+| :---: | :---: |
+| Bicubic | 115 |
+| Fourier | 222 |
 
 -------------------
 # Installation guide
@@ -55,9 +80,9 @@ Plugin installation of MSSR can occur in two alternative ways:
 1. Through the installation option in FIJI (Plugins -> Install -> MSSR_X.X.X.jar) (Figure panel c).
 2. By directly placing the MSSR_X.X.X.jar file in the specific FIJI plugins folder in your system (Figure panel b).
 
-Estimated time to install
 
 <img src="readme_resources/Installation.png" width="600">
+* Estimated installation time 2 ~ 5mn (not including download time).
 
 -------------------
 # MSSR Plugin
@@ -125,3 +150,5 @@ The plugin supports multidimensional stacks of any bit depth (The resulting imag
 
 Define the three main parameters. Select additional features at your convenience.
 Selection a temporal analysis will generate two images, one for the processed stack and other por the temporal stack projection.
+
+
