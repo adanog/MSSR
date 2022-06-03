@@ -62,15 +62,15 @@ With a data set of 32x32 and 100 images, Amplification value as 5, FWHM as 3 and
 
 | Iterpolation | Seconds |
 | :---: | :---: |
-| Bicubic | 36 |
-| Fourier | 41 |
+| Bicubic | 32 |
+| Fourier | 42 |
 
 With a data set of 64x64 and 100 images, Amplification value as 5, FWHM as 3 and Order as 1.
 
 | Iterpolation | Seconds |
 | :---: | :---: |
-| Bicubic | 115 |
-| Fourier | 222 |
+| Bicubic | 114 |
+| Fourier | 165 |
 
 -------------------
 # Installation guide
