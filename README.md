@@ -8,7 +8,8 @@ Esley Torres García , Raúl Cámara , Alejandro Linares et al. Nanoscopic resol
 
 If this software has been usefull to your research, please consider citing
 
-https://doi.org/10.1101/2021.10.17.464398 
+<img src="https://doi.org/10.1101/2021.10.17.464398" width="800">
+
 
 -------------------
 --->
