@@ -1,6 +1,6 @@
 # MSSR
 
-https://zenodo.org/badge/latestdoi/410122347
+https://zenodo.org/badge/410122347.svg
 
 <!---
 A detailled description of the method can be found in : 
