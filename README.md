@@ -1,15 +1,13 @@
 # MSSR
 
-https://zenodo.org/badge/410122347.svg
+<img src="https://doi.org/10.1101/2021.10.17.464398" width="800">
 
 <!---
 A detailled description of the method can be found in : 
 Esley Torres García , Raúl Cámara , Alejandro Linares et al. Nanoscopic resolution within a single imaging frame.
 
 If this software has been usefull to your research, please consider citing
-
-<img src="https://doi.org/10.1101/2021.10.17.464398" width="800">
-
+<a href="https://zenodo.org/badge/latestdoi/410122347"><img src="https://zenodo.org/badge/410122347.svg" alt="DOI"></a>
 
 -------------------
 --->
