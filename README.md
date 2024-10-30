@@ -11,7 +11,7 @@ If this software has been usefull to your research, please consider citing
 -------------------
 --->
 
-<!---
+
 This README.txt file should be accompanied by
 
 * The plugin MSSR_2.0.0.jar in ijplugin folder
@@ -29,8 +29,7 @@ LICENSE.txt
 
 * A Matlab script in MSSR_2.0.0_matlab.rar
 
--------------------
---->
+
 
 # System requirements
 
