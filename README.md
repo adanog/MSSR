@@ -2,17 +2,15 @@
 
 
 <a href="https://zenodo.org/badge/latestdoi/410122347"><img src="https://zenodo.org/badge/410122347.svg" alt="DOI"></a>
-<!---
-A detailled description of the method can be found in : 
-Esley Torres García , Raúl Cámara , Alejandro Linares et al. Nanoscopic resolution within a single imaging frame.
 
+# A detailled description of the method can be found in : 
+Cite this article
+Torres-García, E., Pinto-Cámara, R., Linares, A. et al. Extending resolution within a single imaging frame. Nat Commun 13, 7452 (2022). 
 If this software has been usefull to your research, please consider citing
-<img src="https://doi.org/10.1101/2021.10.17.464398" width="800">
--------------------
---->
+<img src="https://doi.org/10.1038/s41467-022-34693-9" width="800">
 
 
-This README.txt file should be accompanied by
+# This README.txt file should be accompanied by
 
 * The plugin MSSR_2.0.0.jar in ijplugin folder
 
@@ -28,8 +26,6 @@ LICENSE.txt
 * A Python script: MSSR_2.0.0.R
 
 * A Matlab script in MSSR_2.0.0_matlab.rar
-
-
 
 # System requirements
 
