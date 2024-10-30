@@ -43,24 +43,24 @@ Script Requirements:
 
 
 -------------------
-# Minimum characteristics and estimated execution time
+# Minimum Hardware Specifications and Estimated Execution Time
 
-+ CPU: Intel(R) Core i5 Third generation
+Minimum Requirements:
 
-+ RAM: 4GB
+	•	CPU: Intel(R) Core i5 (3rd generation)
+	•	RAM: 4GB
+	•	Graphics: Integrated Intel(R) HD Graphics 2500
 
-+ Integrated graphics: Intel(R) HD Graphics 2500
+Example Execution Times
 
-
-
-With a data set of 32x32 and 100 images, Amplification value as 5, FWHM as 3 and Order as 1.
+For a dataset of 32x32 with 100 images (Amplification: 5, FWHM: 3, Order: 1):
 
 | Iterpolation | Seconds |
 | :---: | :---: |
 | Bicubic | 32 |
 | Fourier | 42 |
 
-With a data set of 64x64 and 100 images, Amplification value as 5, FWHM as 3 and Order as 1.
+For a dataset of 64x64 with 100 images (Amplification: 5, FWHM: 3, Order: 1):
 
 | Iterpolation | Seconds |
 | :---: | :---: |
@@ -70,11 +70,16 @@ With a data set of 64x64 and 100 images, Amplification value as 5, FWHM as 3 and
 -------------------
 # Installation guide
 
-Prior to MSSR installation, the latest version of FIJI must be running on your computer (https://fiji.sc/). Additionally, the CLIJ, CLIJ2 and CLIJx packages (https://clij.github.io/clij2-docs/installationInFiji) must be installed (Figure panel c).
-Plugin installation of MSSR can occur in two alternative ways:
-1. Through the installation option in FIJI (Plugins -> Install -> MSSR_X.X.X.jar) (Figure panel c).
-2. By directly placing the MSSR_X.X.X.jar file in the specific FIJI plugins folder in your system (Figure panel b).
 
+To install the MSSR plugin, first ensure you have the latest version of FIJI installed (https://fiji.sc/). Additionally, the CLIJ, CLIJ2, and CLIJx packages must be installed, as explained in the CLIJ2 documentation (https://clij.github.io/clij2-docs/installationInFiji) (Figure panel c).
+
+
+Plugin Installation Options:
+
+	1.	Through FIJI: Select Plugins -> Install -> MSSR_X.X.X.jar.
+	2.	Manual Installation: Place the MSSR_X.X.X.jar file in the FIJI plugins folder.
+
+Estimated installation time is approximately 2-5 minutes, excluding download times.
 
 <img src="readme_resources/Installation.png" width="600">
 * Estimated installation time 2 ~ 5mn (not including download time).
