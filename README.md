@@ -81,7 +81,7 @@ Plugin Installation Options:
 Estimated installation time is approximately 2-5 minutes, excluding download times.
 
 <img src="readme_resources/Installation.png" width="600">
-* Figure 1. Installing MSSR on FIJI/ImageJ.
+* Figure 1. Installing MSSR plugin on FIJI/ImageJ.
 
 -------------------
 # MSSR Plugin Overview
@@ -117,7 +117,7 @@ Additional Features:
 
 
 <img src="readme_resources/MSSR_Plugin.png" width="600">
-
+Figure 2. MSSR usage and parameters
 -------------------
 # Usage instructions
 
@@ -128,8 +128,6 @@ Additional Features:
 	5.	Click “OK” to start the analysis.
 
 After processing, the output images will display in the interface. Temporal analysis will produce an additional image of the temporal stack projection if selected.
-
-<img src="readme_resources/Usage.png" width="800">
 
 -------------------
 # Demo
@@ -142,3 +140,5 @@ To demonstrate the plugin:
 
 The plugin supports multidimensional stacks of any bit depth, with output images saved in 32-bit format.
 
+<img src="readme_resources/Usage.png" width="800">
+Figure 3. A demo of MSSR processing.
