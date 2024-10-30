@@ -5,12 +5,12 @@
 
 # Detailed Method Description: 
 
-*For an in-depth explanation of the MSSR method, refer to the article:
+* For an in-depth explanation of the MSSR method, refer to the article:
 
 • Torres-García, E., Pinto-Cámara, R., Linares, A. et al. Extending resolution within a single imaging frame. Nat Commun 13, 7452 (2022).
 https://doi.org/10.1038/s41467-022-34693-9
 
-*If this software has been useful in your research, please consider citing the above publication.
+* If this software has been useful in your research, please consider citing the above publication.
 
 
 # Accompanying Files
@@ -75,13 +75,14 @@ To install the MSSR plugin, first ensure you have the latest version of FIJI ins
 
 Plugin Installation Options:
 
-	1.	Through FIJI: Select Plugins -> Install -> MSSR_2.0.0.jar.
-	2.	Manual Installation: Place the MSSR_2.0.0.jar file in the FIJI plugins folder.
+1.	Through FIJI: Select Plugins -> Install -> MSSR_2.0.0.jar.
+2.	Manual Installation: Place the MSSR_2.0.0.jar file in the FIJI plugins folder.
 
 Estimated installation time is approximately 2-5 minutes, excluding download times.
 
 <img src="readme_resources/Installation.png" width="600">
-* Figure 1. Installing MSSR plugin on FIJI/ImageJ.
+
+Figure 1. Installing MSSR plugin on FIJI/ImageJ.
 
 -------------------
 # MSSR Plugin Overview
