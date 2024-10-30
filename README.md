@@ -117,7 +117,8 @@ Additional Features:
 
 
 <img src="readme_resources/MSSR_Plugin.png" width="600">
-Figure 2. MSSR usage and parameters
+* Figure 2. MSSR usage and parameters
+
 -------------------
 # Usage instructions
 
@@ -141,4 +142,4 @@ To demonstrate the plugin:
 The plugin supports multidimensional stacks of any bit depth, with output images saved in 32-bit format.
 
 <img src="readme_resources/Usage.png" width="800">
-Figure 3. A demo of MSSR processing.
+* Figure 3. A demo of MSSR processing.
