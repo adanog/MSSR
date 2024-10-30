@@ -1,16 +1,15 @@
 # MSSR Plugin Documentation
 
-
 <a href="https://zenodo.org/badge/latestdoi/410122347"><img src="https://zenodo.org/badge/410122347.svg" alt="DOI"></a>
 
 # Detailed Method Description: 
 
-* For an in-depth explanation of the MSSR method, refer to the article:
+For an in-depth explanation of the MSSR method, refer to the article:
 
-• Torres-García, E., Pinto-Cámara, R., Linares, A. et al. Extending resolution within a single imaging frame. Nat Commun 13, 7452 (2022).
+Torres-García, E., Pinto-Cámara, R., Linares, A. et al. Extending resolution within a single imaging frame. Nat Commun 13, 7452 (2022).
 https://doi.org/10.1038/s41467-022-34693-9
 
-* If this software has been useful in your research, please consider citing the above publication.
+If this software has been useful in your research, please consider citing the above publication.
 
 
 # Accompanying Files
