@@ -70,7 +70,6 @@ For a dataset of 64x64 with 100 images (Amplification: 5, FWHM: 3, Order: 1):
 -------------------
 # Installation guide
 
-
 To install the MSSR plugin, first ensure you have the latest version of FIJI installed (https://fiji.sc/). Additionally, the CLIJ, CLIJ2, and CLIJx packages must be installed, as explained in the CLIJ2 documentation (https://clij.github.io/clij2-docs/installationInFiji) (Figure panel c).
 
 
@@ -89,8 +88,8 @@ Estimated installation time is approximately 2-5 minutes, excluding download tim
 
 The MSSR plugin provides two main analysis options:
 
-	1.	MSSR Analysis: Performs the primary processing for either sf-MSSRn or t-MSSRn.
-	2.	Temporal Analysis: Conducts temporal analysis for a selected Point Temporal Function (PTF) for t-MSSRn processing.
+* MSSR Analysis: Performs the primary processing for either sf-MSSRn or t-MSSRn.
+* Temporal Analysis: Conducts temporal analysis for a selected Point Temporal Function (PTF) for t-MSSRn processing.
 
 In what follows the main parameters available for MSSR analysis computation will be explained, hence, description will be centered on the use of the MSSR Analysis tab of the MSSR plugin.
 
