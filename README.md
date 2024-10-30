@@ -4,9 +4,10 @@
 <a href="https://zenodo.org/badge/latestdoi/410122347"><img src="https://zenodo.org/badge/410122347.svg" alt="DOI"></a>
 
 # A detailled description of the method can be found in : 
-Cite this article
-Torres-García, E., Pinto-Cámara, R., Linares, A. et al. Extending resolution within a single imaging frame. Nat Commun 13, 7452 (2022). 
-If this software has been usefull to your research, please consider citing
+
+*Torres-García, E., Pinto-Cámara, R., Linares, A. et al. Extending resolution within a single imaging frame. Nat Commun 13, 7452 (2022). 
+
+*If this software has been usefull to your research, please consider citing
 https://doi.org/10.1038/s41467-022-34693-9
 
 
