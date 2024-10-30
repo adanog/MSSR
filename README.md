@@ -105,21 +105,17 @@ The following parameters must be defined for the analysis:
 
 The plugin offers the option of computing 𝑠𝑓−𝑀𝑆𝑆𝑅𝑛, or both 𝑠𝑓−𝑀𝑆𝑆𝑅𝑛 and 𝑡−𝑀𝑆𝑆𝑅𝑛. The temporal analysis is enabled when selecting the option “MSSR Temporal analysis” (Figure panel b.3) where the user can choose one of five available PTFs: Mean, Variance (Var), Temporal Product Mean (TPM), Coefficient Variation, Auto-cumulant Function of order 2-4 (SOFI 2-4).
 
-Additional features:
+Additional Features:
 
-* Computation of FWHM – provides an estimation of the imaging system’s Rayleigh criterion based on known optical parameters (Figure panel c).
 
-* Interpolation type – allows you to select between two types of interpolation to magnify the image. The default option for this parameter is ‘Bicubic’.
+	•	FWHM Computation: Provides an estimation of the Rayleigh criterion based on optical parameters (Figure panel c).
+	•	Interpolation Type: Offers ‘Bicubic’ as the default option for image magnification.
+	•	Mesh Minimization: Reduces mesh artifacts from bicubic interpolation (Figure panel b.2.
+	•	GPU Computing: Enables GPU processing for enhanced performance (Figure panel b.2).
+	•	Intensity Normalization: Allows pixel-wise scaling of MSSR images with the magnified original image (Figure panel b.2).
+	•	Image Selection: Allows choosing an image or stack for analysis (Figure panel b.3).
+	•	Batch Analysis: Enables automatic processing of all images in a selected folder (Figure panel b.3).
 
-* Minimize Meshing – Enable the mesh minimization algorithm which minimizes a ‘mesh’ pattern that commonly appears during the analysis as result of using a bicubic interpolation algorithm for digital upscaling (Figure panel b.2). The default option for this parameter is active.
-
-* GPU Computing – Enables GPU usage for computing for MSSR processing (Figure panel b.2).
-
-* Intensity Normalization – Allow a pixel-wise multiplication with the MSSR image (scaled from 0 to 1 in pixel values) with the magnified original image (Figure panel b.2).
-
-* Selecting Image– Select a desired image or image stack for MSSR processing from the images which are already loaded in FIJI/ImageJ (Figure panel b.3).
-
-* Batch Analysis – Allow to automatically analyze all the images within a selected folder in the user’s computer (Figure panel b.3).
 
 <img src="readme_resources/MSSR_Plugin.png" width="600">
 
