@@ -99,52 +99,47 @@ MSSR Analysis Parameters (Figure panel b.1):
 
 The following parameters must be defined for the analysis:
 
-	•	AMP: Defines the upscaling factor for image size.
-	•	FWHM: Sets the number of pixels covering the Full Width at Half Maximum (FWHM) of the imaging lens’s Point Spread Function (PSF).
-	•	Order: Determines the number of MSSR iterations to enhance image resolution.
+* AMP: Defines the upscaling factor for image size.
+* FWHM: Sets the number of pixels covering the Full Width at Half Maximum (FWHM) of the imaging lens’s Point Spread Function (PSF).
+* Order: Determines the number of MSSR iterations to enhance image resolution.
 
 The plugin offers the option of computing 𝑠𝑓−𝑀𝑆𝑆𝑅𝑛, or both 𝑠𝑓−𝑀𝑆𝑆𝑅𝑛 and 𝑡−𝑀𝑆𝑆𝑅𝑛. The temporal analysis is enabled when selecting the option “MSSR Temporal analysis” (Figure panel b.3) where the user can choose one of five available PTFs: Mean, Variance (Var), Temporal Product Mean (TPM), Coefficient Variation, Auto-cumulant Function of order 2-4 (SOFI 2-4).
 
 Additional Features:
 
 
-	•	FWHM Computation: Provides an estimation of the Rayleigh criterion based on optical parameters (Figure panel c).
-	•	Interpolation Type: Offers ‘Bicubic’ as the default option for image magnification.
-	•	Mesh Minimization: Reduces mesh artifacts from bicubic interpolation (Figure panel b.2.
-	•	GPU Computing: Enables GPU processing for enhanced performance (Figure panel b.2).
-	•	Intensity Normalization: Allows pixel-wise scaling of MSSR images with the magnified original image (Figure panel b.2).
-	•	Image Selection: Allows choosing an image or stack for analysis (Figure panel b.3).
-	•	Batch Analysis: Enables automatic processing of all images in a selected folder (Figure panel b.3).
+* FWHM Computation: Provides an estimation of the Rayleigh criterion based on optical parameters (Figure panel c).
+* Interpolation Type: Offers ‘Bicubic’ as the default option for image magnification.
+* Mesh Minimization: Reduces mesh artifacts from bicubic interpolation (Figure panel b.2.
+* GPU Computing: Enables GPU processing for enhanced performance (Figure panel b.2).
+* Intensity Normalization: Allows pixel-wise scaling of MSSR images with the magnified original image (Figure panel b.2).
+* Image Selection: Allows choosing an image or stack for analysis (Figure panel b.3).
+* Batch Analysis: Enables automatic processing of all images in a selected folder (Figure panel b.3).
 
 
 <img src="readme_resources/MSSR_Plugin.png" width="600">
 
 -------------------
-# Instructions for use
+# Usage instructions
 
-1. Open ImageJ
+	1.	Open ImageJ.
+	2.	Load the dataset test_image.tif.
+	3.	Go to Plugins -> MSSR -> MSSR Analysis to open the analysis window.
+	4.	Define the desired parameters and enable any additional features.
+	5.	Click “OK” to start the analysis.
 
-2. Open the dataset *test_image.tif*.
-
-3. Go to Plugins -> MSSR -> MSSR Analysis
-A window will open.
-
-4. Define the parameters, and additional features.
-
-5. Click on "OK" button.
-
-6. After a few seconds (depending on the specifications of your computer, the defined parameters and the data to be analyzed it might take longer), one or two images will appear (two if a temporal analysis is selected).
+After processing, the output images will display in the interface. Temporal analysis will produce an additional image of the temporal stack projection if selected.
 
 <img src="readme_resources/Usage.png" width="800">
 
 -------------------
 # Demo
 
-Open the image of interest in ImageJ and make sure it is the active window.
+To demonstrate the plugin:
 
-The plugin supports multidimensional stacks of any bit depth (The resulting images will be 32-bit).
+	1.	Open the image of interest in ImageJ, ensuring it is the active window.
+	2.	Specify the analysis parameters as needed.
+	3.	If temporal analysis is selected, two images will be generated: the processed stack and the temporal stack projection.
 
-Define the three main parameters. Select additional features at your convenience.
-Selection a temporal analysis will generate two images, one for the processed stack and other por the temporal stack projection.
-
+The plugin supports multidimensional stacks of any bit depth, with output images saved in 32-bit format.
 
