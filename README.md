@@ -27,18 +27,20 @@ This README.txt file is provided alongside the following resources:
 
 # System requirements
 
-MSSR_2.0.0.jar will require a running installation of ImageJ.
-
+Plugin Requirements:
+The MSSR_2.0.0.jar plugin requires an installation of ImageJ.
 Full instruction for the installation of ImageJ can be found at:
 https://imagej.nih.gov/ij/download.html
 
-Tested on windows 10x86, linux Ubuntu 20.04.4 LTS
-The plugin requires ImageJ 1.48 or higher (tested for 1.48 to 1.53)
-ImageJ version number can be found under: Help -> About ImageJ...
+	•	Tested on: Windows 10x86, Linux Ubuntu 20.04.4 LTS.
+	•	Compatible with ImageJ versions 1.48 or higher.
 
-R functions were developped using R 4.1.1
-Python functions were developped using python 3.10.4
-Matlab functions were developped using 64bits Matlab R2021b
+Script Requirements:
+
+	•	R script compatibility: R 4.1.1.
+	•	Python script compatibility: Python 3.10.4.
+	•	Matlab script compatibility: Matlab R2021b (64-bit).
+
 
 -------------------
 # Minimum characteristics and estimated execution time
