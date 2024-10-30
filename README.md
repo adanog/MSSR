@@ -81,7 +81,7 @@ Plugin Installation Options:
 Estimated installation time is approximately 2-5 minutes, excluding download times.
 
 <img src="readme_resources/Installation.png" width="600">
-* Estimated installation time 2 ~ 5mn (not including download time).
+* Figure 1. Installing MSSR on FIJI/ImageJ.
 
 -------------------
 # MSSR Plugin Overview
