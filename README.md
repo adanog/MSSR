@@ -122,11 +122,11 @@ Additional Features:
 -------------------
 # Usage instructions
 
-	1.	Open ImageJ.
-	2.	Load the dataset test_image.tif.
-	3.	Go to Plugins -> MSSR -> MSSR Analysis to open the analysis window.
-	4.	Define the desired parameters and enable any additional features.
-	5.	Click “OK” to start the analysis.
+1.	Open ImageJ.
+2.	Load the dataset test_image.tif.
+3.	Go to Plugins -> MSSR -> MSSR Analysis to open the analysis window.
+4.	Define the desired parameters and enable any additional features.
+5.	Click “OK” to start the analysis.
 
 After processing, the output images will display in the interface. Temporal analysis will produce an additional image of the temporal stack projection if selected.
 
@@ -135,11 +135,12 @@ After processing, the output images will display in the interface. Temporal anal
 
 To demonstrate the plugin:
 
-	1.	Open the image of interest in ImageJ, ensuring it is the active window.
-	2.	Specify the analysis parameters as needed.
-	3.	If temporal analysis is selected, two images will be generated: the processed stack and the temporal stack projection.
+1.	Open the image of interest in ImageJ, ensuring it is the active window.
+2.	Specify the analysis parameters as needed.
+3.	If temporal analysis is selected, two images will be generated: the processed stack and the temporal stack projection.
 
 The plugin supports multidimensional stacks of any bit depth, with output images saved in 32-bit format.
 
 <img src="readme_resources/Usage.png" width="800">
-* Figure 3. A demo of MSSR processing.
+
+Figure 3. A demo of MSSR processing.
