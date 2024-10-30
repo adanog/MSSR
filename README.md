@@ -7,8 +7,8 @@
 Cite this article
 Torres-García, E., Pinto-Cámara, R., Linares, A. et al. Extending resolution within a single imaging frame. Nat Commun 13, 7452 (2022). 
 If this software has been usefull to your research, please consider citing
-<img src="https://doi.org/10.1038/s41467-022-34693-9" width="800">
 
+<a href="https://doi.org/10.1038/s41467-022-34693-9"><img src="https://doi.org/10.1038/s41467-022-34693-9" alt="DOI"></a>
 
 # This README.txt file should be accompanied by
 
