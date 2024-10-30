@@ -9,6 +9,7 @@ For an in-depth explanation of the MSSR method, refer to the article:
 
 •Torres-García, E., Pinto-Cámara, R., Linares, A. et al. Extending resolution within a single imaging frame. Nat Commun 13, 7452 (2022).
 https://doi.org/10.1038/s41467-022-34693-9
+If this software has been useful in your research, please consider citing the above publication.
 
 
 # This README.txt file should be accompanied by
