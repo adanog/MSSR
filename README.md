@@ -85,23 +85,23 @@ Estimated installation time is approximately 2-5 minutes, excluding download tim
 * Estimated installation time 2 ~ 5mn (not including download time).
 
 -------------------
-# MSSR Plugin
+# MSSR Plugin Overview
 
-Two options are available within the MSSR plugin (Figure panel a):
+The MSSR plugin provides two main analysis options:
 
-* MSSR Analysis - Encompasses the major processing steps for either 𝑠𝑓−𝑀𝑆𝑆𝑅𝑛or 𝑡−𝑀𝑆𝑆𝑅𝑛.
-
-* Temporal Analysis - Allows the user to perform an additional temporal analysis by selecting a desired PTF for 𝑡−𝑀𝑆𝑆𝑅𝑛 processing.
+	1.	MSSR Analysis: Performs the primary processing for either sf-MSSRn or t-MSSRn.
+	2.	Temporal Analysis: Conducts temporal analysis for a selected Point Temporal Function (PTF) for t-MSSRn processing.
 
 In what follows the main parameters available for MSSR analysis computation will be explained, hence, description will be centered on the use of the MSSR Analysis tab of the MSSR plugin.
 
-Three parameters are needed for MSSR analysis (Figure panel b.1):
 
-* AMP – An upscaling factor for the resulting MSSR image size.
+MSSR Analysis Parameters (Figure panel b.1):
 
-* FWHM – The number of pixels that cover the Full Width at Half Maximum of the Point Spread Function (PSF) of the imaging lens.
+The following parameters must be defined for the analysis:
 
-* Order – The number of MSSR iterations for the image resolution enhancement.
+	•	AMP: Defines the upscaling factor for image size.
+	•	FWHM: Sets the number of pixels covering the Full Width at Half Maximum (FWHM) of the imaging lens’s Point Spread Function (PSF).
+	•	Order: Determines the number of MSSR iterations to enhance image resolution.
 
 The plugin offers the option of computing 𝑠𝑓−𝑀𝑆𝑆𝑅𝑛, or both 𝑠𝑓−𝑀𝑆𝑆𝑅𝑛 and 𝑡−𝑀𝑆𝑆𝑅𝑛. The temporal analysis is enabled when selecting the option “MSSR Temporal analysis” (Figure panel b.3) where the user can choose one of five available PTFs: Mean, Variance (Var), Temporal Product Mean (TPM), Coefficient Variation, Auto-cumulant Function of order 2-4 (SOFI 2-4).
 
