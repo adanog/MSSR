@@ -117,7 +117,8 @@ Additional Features:
 
 
 <img src="readme_resources/MSSR_Plugin.png" width="600">
-* Figure 2. MSSR usage and parameters
+
+Figure 2. MSSR usage and parameters
 
 -------------------
 # Usage instructions
