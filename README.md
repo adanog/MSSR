@@ -76,8 +76,8 @@ To install the MSSR plugin, first ensure you have the latest version of FIJI ins
 
 Plugin Installation Options:
 
-	1.	Through FIJI: Select Plugins -> Install -> MSSR_X.X.X.jar.
-	2.	Manual Installation: Place the MSSR_X.X.X.jar file in the FIJI plugins folder.
+	1.	Through FIJI: Select Plugins -> Install -> MSSR_2.0.0.jar.
+	2.	Manual Installation: Place the MSSR_2.0.0.jar file in the FIJI plugins folder.
 
 Estimated installation time is approximately 2-5 minutes, excluding download times.
 
